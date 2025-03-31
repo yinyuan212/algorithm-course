@@ -1,0 +1,28 @@
+# 二進位與編譯中間產物
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+*.log
+
+# 自動產生的依賴檔
+*.d
+
+# CMake build 資料夾
+/build/
+/cmake-build-*/
+
+# VSCode 設定檔（如果你用 VSCode）
+.vscode/
+
+# CLion / JetBrains IDEs
+.idea/
+
+# Mac 系統隱藏檔
+.DS_Store
+
+# Windows 系統隱藏檔
+Thumbs.db
